@@ -5,7 +5,37 @@
   /*heading colors */
   --main-h-color: hsl(300, 43%, 22%);
 
+
+
   /* Rating card colors */
   --review-bg-color: hsl(290, 30%, 96%);
+  --review-text-color: hsl(300, 43%, 22%);
 
+  /* Description colors */
+  --desc-text-color: hsl(303, 10%, 53%);
+
+  /* Card colors */
+  --card-bg-color: hsl(300, 43%, 22%);
+  --card-verify: hsl(333, 80%, 67%);
+
+}
+
+body {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 6rem 1rem;
+  font-family: "League Spartan";
+}
+
+.review {
+  margin-left: var(--ml);
+}
+
+@media (max-width: 768px) {
+  .review {
+    margin-left: 0px;
+  }
 }
