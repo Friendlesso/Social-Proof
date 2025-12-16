@@ -1,1 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 @import 'tailwindcss';
+
+:root {
+  /*heading colors */
+  --main-h-color: hsl(300, 43%, 22%);
+
+  /* Rating card colors */
+  --review-bg-color: hsl(290, 30%, 96%);
+
+}
